@@ -4,7 +4,13 @@ I am in no way shape or form a web developer, so use at your own risk.
 
 ## Included in this template
 - ```index.html```: Main homepage - a template with placeholders, the navbar leading to different sections (see ```/assets/elements/nav.html```).
+
+![Homepage template example](/assets/img/main-page.jpg)
+
+
 - ```/projects/proj1.html```: Project page - a template with placeholders and the ```/assets/elements/nav-simpler.html``` navigation bar.
+
+![Project page template example](/assets/img/project-page.jpg)
 
 
 ## How to use
@@ -36,4 +42,4 @@ Create your own variables and use them to modify your design!
 ## General
 - This project is licensed under the terms of the MIT license.
 - The template uses jQuery, Javascript and CSS.
-- Picture was generated using [Canva](https://canva.com).
+- Temporary profile picture was generated using [Canva](https://canva.com).
