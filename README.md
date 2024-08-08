@@ -1,4 +1,4 @@
-A very simple academic website template.
+This repo was created to be a template for academic websites, as there is a shortage of those, but can be used for general research, or anything really.
 I am in no way shape or form a web developer, so use at your own risk.
 
 
