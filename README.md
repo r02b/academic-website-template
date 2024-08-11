@@ -29,7 +29,7 @@ This template is meant to be very easy to make small modifications to, by changi
 - Accent color: ```--accent-color```, as well as other colors used.
 - Main and header font: ```--main-font``` and ```--header-font```, respectively (see suggested marked out font pairings).
 - Header font weight: ```--header-font-weight```.
-- Floating navigation bar: - ```assets/js/main.js```:  change ```enable_floating_navbar``` to be true.
+- Floating navigation bar: in ```assets/js/main.js``` change ```enable_floating_navbar``` to be true.
 
 Create your own variables and use them to modify your design!
 
