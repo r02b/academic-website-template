@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- This website is based on https://github.com/r02b/academic-website-template -->
+<html lang="en">
+    <head>
+        <!-- scripts, css and such -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans|Space+Mono|Muli|Garamond">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+            <link href="assets/css/main.css" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+            <meta charset="UTF-8">
+
+            <!-- Title! -->
+            <title>Homepage</title>
+    </head>
+
+    <body>
+
+        <div id="nav-placeholder"></div>
+
+        <div id="content">
+            <div class="row">
+            <!-- Profile picture div-->
+            <div id="picture" class="section col-md-3 align-left">
+                <img src="assets/img/profile-pic.jpg">
+            </div>
+
+            <!-- Main content div  - insert sections here -->
+            <div id="text" class="col-md-8">
+
+            <!-- Each section is made of a title and content. Remember to link each section in /elements/nav.html ! -->
+                <div class="section" id="about">
+                    <div class="section-title">
+                        About
+                    </div>
+                    <div class="section-content">
+                        This is just some text to see how this is actually supposed to look like.
+                        Hey look here's a <a href="#paper1">link to paper1</a>. If you assign each paper item with a unique id, you can keep reference them around.
+                        Same for others things like <a href="#award1">awards</a>.
+                    </div>
+                </div>
+
+
+                <div class="section" id="publications">
+                    <div class="section-title">
+                        Publications
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li id="paper1">
+                                <span class="paper-name">Cool name - does a lot of cool stuff!</span>
+                                <br>
+                                <span class="paper-authors">Author #1, Author #2, ...</span>
+
+                                <br>
+                                <span class="paper-details">
+                                    <a href="#" target="_self">Full text</a>,
+                                    <a href="projects/proj1.html" target="_self">project page</a>,
+                                    <a href="#" target="_self">slides</a>
+                                </span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="section" id="awards">
+                    <div class="section-title">
+                        Awards
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li id="award1">Some award</li>
+                            <li>Another award</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section" id="outreach">
+                    <div class="section-title">
+                        Outreach
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>Reviewed for CooLConference</li>
+                            <li>Volunteered at CoolPlace</li>
+                        </ul>
+                    </div>
+                </div>
+
+              <div class="section" id="talks">
+                    <div class="section-title">
+                        Talks
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>A link to a <a href="#" target="_self">talk about Project1</a>.</li>
+                            <li>A link to <a href="#" target="_self">my seminar talk</a> about some other cool things.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section" id="teaching">
+                    <div class="section-title">
+                        Teaching
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>Some course</li>
+                            <li>Another course</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-placeholder"></div>
+
+
+
+        <!-- Scripts -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

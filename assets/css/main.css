@@ -221,6 +221,12 @@ a.nav-link:hover, a.navbar-brand {
     font-size: 2rem;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
 @media (min-width: 992px) {
 
     .navbar-expand-lg .navbar-nav {

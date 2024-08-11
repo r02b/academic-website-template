@@ -3,7 +3,7 @@ I am in no way shape or form a web developer, so use at your own risk.
 
 
 ## Included in this template
-- ```index.html```: Main homepage - a template with placeholders, the navbar leading to different sections (see ```assets/elements/nav.html```).
+- ```homepage.html```: Main homepage - a template with placeholders, the navbar leading to different sections (see ```assets/elements/nav.html```).
 
 ![Homepage template example](/assets/img/main-page.jpg)
 
@@ -16,8 +16,8 @@ I am in no way shape or form a web developer, so use at your own risk.
 ## How to use
 Download the files and modify them as you see fit! 
 To make it easier, here is a list of the main details you need to change:
-- ```index.html```: the main portion of the website, put your content here. Remember to change the ```<title>``` tag!
-- ```elements/nav.html```: adjust links based on the sections in ```index.html```.
+- ```homepage.html```: the main portion of the website, put your content here. Remember to change the ```<title>``` tag!
+- ```elements/nav.html```: adjust links based on the sections in ```homepage.html```.
 - ```assets/js/main.js```:  change ```window.owner_name``` to your name.
 - ```assets/img```: delete and replace the images with yours.
 
@@ -29,6 +29,7 @@ This template is meant to be very easy to make small modifications to, by changi
 - Accent color: ```--accent-color```, as well as other colors used.
 - Main and header font: ```--main-font``` and ```--header-font```, respectively (see suggested marked out font pairings).
 - Header font weight: ```--header-font-weight```.
+- Floating navigation bar: in ```assets/js/main.js``` change ```enable_floating_navbar``` to be true.
 
 Create your own variables and use them to modify your design!
 
