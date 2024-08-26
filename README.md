@@ -24,13 +24,17 @@ To make it easier, here is a list of the main details you need to change:
 To be able to enjoy future updates, I recommend adding your own modification to a new css and js files.
 
 
-## Simple style modifications
+## Simple Modifications
+# Style-wise
 This template is meant to be very easy to make small modifications to, by changing the variables defined in the ```assets/css/main.css``` file. These include:
 - Accent color: ```--accent-color```, as well as other colors used.
 - Main and header font: ```--main-font``` and ```--header-font```, respectively (see suggested marked out font pairings).
 - Header font weight: ```--header-font-weight```.
 
 Create your own variables and use them to modify your design!
+
+# Functionality
+-   Added "sticky-top" documentation for the navbar - see ```elements/nav.html``` and ```/elements/nav-smaller.html```.
 
 
 ## Automation 

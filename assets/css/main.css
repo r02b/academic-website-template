@@ -56,8 +56,6 @@ a:hover {
     min-height: 100%;
     padding-left: var(--left-pad);
     padding-right: var(--left-pad);
-
-    /*padding-right: 30px;*/
 }
 
 /*
