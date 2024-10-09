@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
     var page = path.split("/").pop();
 
 
-    if (page == 'index.html'){
+    if (page == 'index.html' || page == ''){
         //    Navbar
         $.get("elements/nav.html", function(data){
             $("#nav-placeholder").replaceWith(data);
